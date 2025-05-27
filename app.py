@@ -70,7 +70,7 @@ def process_video(video_file, intensity, preview_audio=False, convert_vertical=F
 
         return output_path, eq_path
 
-# Streamlit UI
+# Interfaz de Streamlit
 st.set_page_config(page_title="Techno Audio Enhancer", layout="centered")
 st.title("Techno Audio Enhancer para TikTok")
 st.write("Mejora el audio de tus videos techno con reducción de ruido, ecualización y formato vertical.")
